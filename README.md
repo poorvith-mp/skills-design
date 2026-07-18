@@ -2,10 +2,10 @@
 
 Claude / Agent **skills** library by **Poorvith M P**.
 
-- Version: **v0.1**
+- Version: **v0.2**
 - Last updated: **July 2026**
 - License: **MIT**
-- Skills in this repo: **26**
+- Skills in this repo: **29**
 
 Part of the **[open-claude-skills](https://github.com/prvthmpcypher/open-claude-skills)** multi-repo hub.
 
@@ -40,7 +40,10 @@ Zip a single `skills/<skill-id>` folder and upload via **Settings → Capabiliti
 | `icon-brief-writer` | Icon Brief Writer |
 | `image-prompt-engineer` | Image Prompt Engineer |
 | `inclusive-visuals-specialist` | Inclusive Visuals Specialist |
+| `logo-brand-mark-designer` | Logo & Brand Mark Designer |
+| `motion-graphics-producer` | Motion Graphics Producer |
 | `onboarding-flow-designer` | Onboarding Flow Designer |
+| `print-packaging-designer` | Print & Packaging Designer |
 | `responsive-breakpoint-advisor` | Responsive Breakpoint Advisor |
 | `typography-system-builder` | Typography System Builder |
 | `ui-designer` | UI Designer |
@@ -67,3 +70,4 @@ skills/<skill-id>/
 ## Author
 
 Copyright (c) 2026 Poorvith M P
+Follow the build: [@poorvith_mp](https://x.com/poorvith_mp)
