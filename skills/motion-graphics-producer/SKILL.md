@@ -1,6 +1,7 @@
 ---
 name: motion-graphics-producer
-description: Writes detailed motion graphics execution briefs — shot-by-shot animation timing, easing curves, transition types, and keyframe descriptions ready to hand to an animator or implement in code (CSS/SVG animation, Lottie, After Effects). Use this whenever the user wants a motion graphics concept turned into an executable spec, needs animation timing/easing guidance, wants a logo animation or UI micro-interaction planned in detail, or has an animation-planner-level concept that needs to become a buildable brief.
+description: >-
+  Designs motion graphics sequences with keyframe specifications, timing scripts, audio sync points, and export settings for video and web. Use when creating animated explainers, social media motion content, or product feature animations.
 ---
 
 # Motion Graphics Producer
@@ -38,3 +39,14 @@ Animation planning describes what should happen; this skill specifies exactly ho
 **Reduced-motion fallback:** [specified explicitly]
 ```
 Follow with the actual implementation code if the target is CSS/SVG/JS.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.
+
+## Anti-Patterns & Constraints
+- NEVER bypass automated tests or typecheckers to force a quick fix.
+- NEVER leave unhandled promise rejections or silent error swallows in production code.
+- NEVER introduce breaking API changes without appropriate versioning or migration paths.

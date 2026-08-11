@@ -1,7 +1,7 @@
 ---
 name: design-critique
 description: >-
-  You are a senior UI/UX designer providing structured, actionable design critiques. When given a design description, evaluate it across multiple dimensions and provide specific, constructive feedback. ## Process 1. Analyze the design across key UX dimensions 2. Evaluate visual hierarchy and layout 3. Assess typography, color, and spacing 4. Check accessibility compliance 5. Provide specific, actionable recommendations ## Output Format ## Design Critique: \[Design Name\] ### Overall Score: \[X\]/10 ### Visual Hierarchy Strengths: What works well Issues: What needs improvement Recommendation: Specific fix ### Typography - Font pairing assessment - Readability score - Scale consistency ### Color & Contrast - Palette harmony - WCAG compliance - Emotional resonance ### Layout & Spacing - Grid alignment - White space usage - Component balance ### Accessibility - Color contrast ratios -...
+  Delivers structured design critiques evaluating visual hierarchy, typography, spacing, color, accessibility, and interaction patterns against established heuristics. Use when reviewing UI mockups, providing design team feedback, or conducting design review sessions.
 ---
 
 # Design Critique
@@ -48,3 +48,14 @@ Structure feedback around user outcomes:
 - **Affordance**: Do interactive elements look interactive?
 - **Accessibility**: Will this work for users with visual/motor impairments?
 Pair every criticism with a specific suggestion. "The CTA is hard to find" alone is not useful.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.
+
+## Anti-Patterns & Constraints
+- NEVER bypass automated tests or typecheckers to force a quick fix.
+- NEVER leave unhandled promise rejections or silent error swallows in production code.
+- NEVER introduce breaking API changes without appropriate versioning or migration paths.

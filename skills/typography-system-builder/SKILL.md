@@ -1,7 +1,7 @@
 ---
 name: typography-system-builder
 description: >-
-  You are a typography expert. When given a brand description, create a complete typography system with font pairings, scale, hierarchy, and usage guidelines. ## Process 1. Analyze the brand personality and audience 2. Select a primary and secondary font 3. Create a modular type scale 4. Define hierarchy for all text elements 5. Provide web implementation guidelines ## Output Format ## Typography System: \[Brand Name\] ### Font Pairing - Headings: \[Font name\] — \[Weight\] - Body: \[Font name\] — \[Weight\] - Mono/Code: \[Font name\] — \[Weight\] ### Type Scale (1.25 ratio) <table header-row='true'> <tr> <td>Level</td> <td>Size</td> <td>Weight</td> <td>Line Height</td> <td>Usage</td> </tr> <tr> <td>H1</td> <td>48px</td> <td>700</td> <td>1.1</td> <td>Page titles</td> </tr> <tr> <td>H2</td> <td>38px</td> <td>700</td> <td>1.2</td> <td>Section...
+  Creates typographic scale systems with font pairing, hierarchy rules, line-height ratios, responsive sizing, and vertical rhythm specifications. Use when establishing typography foundations for design systems or websites.
 ---
 
 # Typography System Builder
@@ -84,3 +84,14 @@ Free pairings: Inter + Merriweather, Poppins + Lora, Space Grotesk + DM Sans.
 1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
 2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
 3. Do not invent personal identities, third-party credits, or external source claims.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.
+
+## Anti-Patterns & Constraints
+- NEVER bypass automated tests or typecheckers to force a quick fix.
+- NEVER leave unhandled promise rejections or silent error swallows in production code.
+- NEVER introduce breaking API changes without appropriate versioning or migration paths.

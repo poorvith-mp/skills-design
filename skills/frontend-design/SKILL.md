@@ -1,7 +1,7 @@
 ---
 name: frontend-design
 description: >-
-  This skill guides creation of distinctive, production-grade frontend interfaces that avoid generic 'AI slop' aesthetics. Implement real working code with exceptional attention to aesthetic details and creative choices. The user provides frontend requirements: a component, page, application, or interface to build. They may include context about the purpose, audience, or technical constraints. ## Design Thinking Before coding, understand the context and commit to a BOLD aesthetic direction: - \\Purpose\\: What problem does this interface solve? Who uses it? - \\Tone\\: Pick an extreme: brutally minimal, maximalist chaos, retro-futuristic, organic/natural, luxury/refined, playful/toy-like, editorial/magazine, brutalist/raw, art deco/geometric, soft/pastel, industrial/utilitarian, etc. There are so many flavors to choose from. Use these for inspiration but design one that is true to the...
+  This skill guides creation of distinctive, production-grade frontend interfaces that avoid generic 'AI slop' aesthetics. Implement real working code with exceptional attention to aesthetic details and creative choices. The user provides frontend requirements: a component, page, application, or interface to build. They may include context about the purpose, audience, or technical constraints. ## Design Thinking Before coding, understand the context and commit to a BOLD aesthetic direction: - \\Purpose\\: What problem does this interface solve? Who uses it? - \\Tone\\: Pick an extreme: brutally minimal, maximalist chaos, retro-futuristic, organic/natural, luxury/refined, playful/toy-like, editorial/magazine, brutalist/raw, art deco/geometric, soft/pastel, industrial/utilitarian, etc. There are so many flavors to choose from. Use these for inspiration but design one that is true to the. Use when working on frontend design, generating related artifacts, or analyzing domain requirements.
 ---
 
 # Frontend Design
@@ -39,3 +39,14 @@ Remember: Claude is capable of extraordinary creative work. Don't hold back, sho
 - Use clear headings and bullet lists where helpful.
 - Call out assumptions and open questions at the end.
 - Stay specific to the Frontend Design workflow; avoid generic filler.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.
+
+## Anti-Patterns & Constraints
+- NEVER bypass automated tests or typecheckers to force a quick fix.
+- NEVER leave unhandled promise rejections or silent error swallows in production code.
+- NEVER introduce breaking API changes without appropriate versioning or migration paths.

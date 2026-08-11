@@ -1,6 +1,7 @@
 ---
 name: print-packaging-designer
-description: Plans print and packaging design specifications — business cards, brochures, box/label dielines, bleed and safe-zone requirements, and print-ready file setup guidance (CMYK, resolution, paper stock considerations). Use this whenever the user is designing something meant for physical printing or packaging, mentions bleed/dieline/CMYK, is preparing files to send to a printer, or is choosing paper stock/finish for a print piece.
+description: >-
+  Designs print-ready packaging layouts with bleed margins, die lines, color profiles (CMYK/Pantone), and material specifications. Use when creating product packaging, designing labels, or preparing files for print production.
 ---
 
 # Print & Packaging Designer
@@ -28,3 +29,14 @@ Print design has hard physical constraints that digital design doesn't — a fil
 Provide the design (as SVG where feasible) with bleed and safe-zone guides clearly marked/labeled, plus a short spec sheet: final trim size, bleed amount, color mode, resolution requirement, and any paper stock/finish recommendation with reasoning.
 
 See `references/standard-dimensions.md` for common print product sizes.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.
+
+## Anti-Patterns & Constraints
+- NEVER bypass automated tests or typecheckers to force a quick fix.
+- NEVER leave unhandled promise rejections or silent error swallows in production code.
+- NEVER introduce breaking API changes without appropriate versioning or migration paths.

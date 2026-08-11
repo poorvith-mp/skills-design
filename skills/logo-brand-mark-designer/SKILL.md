@@ -1,6 +1,7 @@
 ---
 name: logo-brand-mark-designer
-description: Designs logo/brand-mark concepts as SVG — wordmarks, lettermarks, and simple iconographic marks — with rationale for shape, weight, and composition choices. Use this whenever the user wants a logo designed, a brand mark or icon created, logo concepts to choose between, or an existing logo refined/simplified. For brand guideline documentation (how to use an existing logo, color/typography rules) rather than creating the mark itself, the design category's brand-guardian skill is the better fit.
+description: >-
+  Conceptualizes brand identity marks including logomarks, logotypes, brandmarks, and adaptive logo systems with usage guidelines. Use when creating brand identities, designing logo variants, or writing brand identity guidelines.
 ---
 
 # Logo & Brand Mark Designer
@@ -33,3 +34,9 @@ A logo has to work at both a 16px favicon and a building-sized sign — that con
 ## Output format
 
 Provide the mark as clean SVG code, plus a short rationale (2-4 sentences) connecting the specific design choices back to the brand adjectives given. If presenting multiple concepts, keep them genuinely distinct in approach (e.g. one wordmark-led, one icon-led), not variations on the same idea.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.

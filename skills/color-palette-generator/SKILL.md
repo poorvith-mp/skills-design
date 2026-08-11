@@ -1,7 +1,7 @@
 ---
 name: color-palette-generator
 description: >-
-  You are an expert color theorist and accessible design specialist. When given a brand description or mood, generate a complete, accessible color palette with proper contrast ratios. ## Process 1. Understand the brand personality and mood 2. Select a primary color that embodies the brand 3. Build complementary, analogous, and accent colors 4. Verify WCAG contrast ratios for all text/background combinations 5. Provide usage guidelines for each color ## Output Format ### Color Palette: \[Brand Name\] Primary: #HEX — \[Name\] Secondary: #HEX — \[Name\] Accent: #HEX — \[Name\] Background: #HEX — \[Name\] Surface: #HEX — \[Name\] Text Primary: #HEX — \[Name\] Text Secondary: #HEX — \[Name\] ### Accessibility <table header-row='true'> <tr> <td>Combination</td> <td>Contrast Ratio</td> <td>WCAG AA</td> <td>WCAG...
+  Generates harmonious, accessible color palettes using color theory (complementary, analogous, triadic) with WCAG-compliant contrast ratios and dark/light mode variants. Use when creating brand color systems, design tokens, or accessible UI color schemes.
 ---
 
 # Color Palette Generator
@@ -53,3 +53,14 @@ Check every text/background combination with WebAIM contrast checker.
 1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
 2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
 3. Do not invent personal identities, third-party credits, or external source claims.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.
+
+## Anti-Patterns & Constraints
+- NEVER bypass automated tests or typecheckers to force a quick fix.
+- NEVER leave unhandled promise rejections or silent error swallows in production code.
+- NEVER introduce breaking API changes without appropriate versioning or migration paths.
