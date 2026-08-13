@@ -1,0 +1,20 @@
+{
+  "name": "skills-design",
+  "displayName": "Design Skills",
+  "version": "1.0.0",
+  "description": "29 design skills. Visual and product design: design systems, UX, brand, typography and accessibility.",
+  "author": {
+    "name": "Poorvith M P",
+    "url": "https://github.com/prvthmpcypher"
+  },
+  "homepage": "https://github.com/prvthmpcypher/skillary",
+  "repository": "https://github.com/prvthmpcypher/skills-design",
+  "license": "MIT",
+  "keywords": [
+    "design",
+    "ux",
+    "accessibility",
+    "brand",
+    "agent-skills"
+  ]
+}
