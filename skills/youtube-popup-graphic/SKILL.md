@@ -1,7 +1,9 @@
 ---
 name: youtube-popup-graphic
 description: >-
-  Use the reference image for the theme. Use when the user asks about youtube popup graphic, needs this workflow, or requests related deliverables.
+  Creates YouTube popup and overlay graphics matched to a reference image or channel theme. Use
+  when producing an on-screen graphic for a video. Not for thumbnails - use
+  youtube-thumbnail-maker.
 ---
 
 # YouTube Popup Graphic

@@ -1,7 +1,8 @@
 ---
 name: motion-graphics-producer
 description: >-
-  Designs motion graphics sequences with keyframe specifications, timing scripts, audio sync points, and export settings for video and web. Use when creating animated explainers, social media motion content, or product feature animations.
+  Specifies motion graphics: keyframes, timing, audio sync points and export settings for video
+  and web. Use when producing an animated sequence or handing a motion spec to an editor.
 ---
 
 # Motion Graphics Producer

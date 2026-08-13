@@ -1,7 +1,9 @@
 ---
 name: color-palette-generator
 description: >-
-  Generates harmonious, accessible color palettes using color theory (complementary, analogous, triadic) with WCAG-compliant contrast ratios and dark/light mode variants. Use when creating brand color systems, design tokens, or accessible UI color schemes.
+  Builds accessible palettes using colour theory with WCAG contrast ratios and dark/light
+  variants. Use when creating a palette or fixing contrast failures. Not for dark mode conversion
+  - use dark-mode-adapter.
 ---
 
 # Color Palette Generator

@@ -1,7 +1,8 @@
 ---
 name: logo-brand-mark-designer
 description: >-
-  Conceptualizes brand identity marks including logomarks, logotypes, brandmarks, and adaptive logo systems with usage guidelines. Use when creating brand identities, designing logo variants, or writing brand identity guidelines.
+  Develops logomarks, logotypes and adaptive logo systems with usage guidelines. Use when creating
+  or refining a brand mark. Not for the wider brand system - use brand-guardian.
 ---
 
 # Logo & Brand Mark Designer

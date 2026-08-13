@@ -1,7 +1,8 @@
 ---
 name: heatmap-interpreter
 description: >-
-  Analyzes click, scroll, and attention heatmap data to identify UX friction, missed CTAs, false affordances, and content engagement patterns. Use when interpreting Hotjar/Crazy Egg heatmaps, optimizing page layouts, or diagnosing conversion funnel drop-offs.
+  Reads click, scroll and attention heatmaps to find UX friction, missed CTAs and false
+  affordances. Use when interpreting session data or diagnosing why a page underperforms.
 ---
 
 # Heatmap Interpreter

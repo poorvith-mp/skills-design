@@ -1,7 +1,9 @@
 ---
 name: user-persona-builder
 description: >-
-  Constructs research-backed user personas with demographic profiles, behavioral patterns, goals, frustrations, and journey-stage context. Use when synthesizing user research into personas, planning user-centered design sprints, or aligning teams on target users.
+  Builds research-backed personas with behaviours, goals, frustrations and journey-stage context.
+  Use when synthesising research into personas, or replacing invented personas with evidenced
+  ones.
 ---
 
 # User Persona Builder

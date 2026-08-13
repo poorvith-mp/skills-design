@@ -1,7 +1,8 @@
 ---
 name: responsive-breakpoint-advisor
 description: >-
-  Defines responsive design breakpoint strategies, fluid typography scales, and adaptive layout behaviors across device categories. Use when establishing responsive design systems, debugging mobile layouts, or planning multi-device experiences.
+  Defines breakpoint strategy, fluid type scales and adaptive layout behaviour across devices. Use
+  when setting breakpoints or fixing layouts that break between sizes.
 ---
 
 # Responsive Breakpoint Advisor

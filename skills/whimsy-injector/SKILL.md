@@ -1,7 +1,8 @@
 ---
 name: whimsy-injector
 description: >-
-  Expert creative specialist focused on adding personality, delight, and playful elements to brand experiences. Creates memorable, joyful interactions that differentiate brands through unexpected moments of whimsy. Use when the user asks about whimsy injector, needs this workflow, or requests related deliverables.
+  Adds personality and delight to an interface - microinteractions, copy moments, easter eggs -
+  without harming usability. Use when a product feels correct but lifeless.
 ---
 
 # Whimsy Injector

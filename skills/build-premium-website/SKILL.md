@@ -1,7 +1,9 @@
 ---
 name: build-premium-website
 description: >-
-  Specialist workflow for Build Premium Website. Use when the user asks about build premium website, needs this workflow, or requests related deliverables.
+  Designs and builds high-end marketing websites with considered typography, layout and motion.
+  Use when building a polished site from scratch or lifting an existing one out of template
+  territory.
 ---
 
 # Build Premium Website

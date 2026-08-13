@@ -1,7 +1,8 @@
 ---
 name: youtube-thumbnail-maker
 description: >-
-  (Higgsfield job: <jobId>) Use \\$ARGUMENTS\ as the two software names when present. Use when the user asks about youtube thumbnail maker, needs this workflow, or requests related deliverables.
+  Designs YouTube thumbnails with high-contrast focal points and text legible at small sizes. Use
+  when making a thumbnail for a video. Not for in-video overlays - use youtube-popup-graphic.
 ---
 
 # Thumbnail Maker

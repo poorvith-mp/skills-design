@@ -1,7 +1,8 @@
 ---
 name: typography-system-builder
 description: >-
-  Creates typographic scale systems with font pairing, hierarchy rules, line-height ratios, responsive sizing, and vertical rhythm specifications. Use when establishing typography foundations for design systems or websites.
+  Builds type systems: scale, font pairing, hierarchy rules, line height and vertical rhythm. Use
+  when establishing typography for a product or fixing inconsistent text styles.
 ---
 
 # Typography System Builder

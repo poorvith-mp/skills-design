@@ -1,7 +1,9 @@
 ---
 name: onboarding-flow-designer
 description: >-
-  Architects user onboarding experiences including progressive disclosure sequences, tooltip tours, empty states, and activation milestone tracking. Use when designing first-time user experiences, reducing time-to-value, or improving activation rates.
+  Designs onboarding: progressive disclosure, tooltip tours, empty states and activation
+  milestones. Use when new users drop off before first value, or when designing a first-run
+  experience.
 ---
 
 # Onboarding Flow Designer

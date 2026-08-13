@@ -1,7 +1,9 @@
 ---
 name: brand-guardian
 description: >-
-  Expert brand strategist and guardian specializing in brand identity development, consistency maintenance, and strategic brand positioning. Use when the user asks about brand guardian, needs this workflow, or requests related deliverables.
+  Develops and enforces brand identity: positioning, voice, visual consistency and usage rules.
+  Use when defining a brand system or auditing work for consistency. Not for logo design - use
+  logo-brand-mark-designer.
 ---
 
 # Brand Guardian

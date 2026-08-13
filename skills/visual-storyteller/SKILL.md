@@ -1,7 +1,8 @@
 ---
 name: visual-storyteller
 description: >-
-  Expert visual communication specialist focused on creating compelling visual narratives, multimedia content, and brand storytelling through design. Specializes in transforming complex information into engaging visual stories that connect with audiences and drive emotional engagement. Use when the user asks about visual storyteller, needs this workflow, or requests related deliverables.
+  Builds visual narratives and multimedia brand storytelling: sequence, pacing and message through
+  design. Use when telling a story visually rather than presenting information.
 ---
 
 # Visual Storyteller Agent

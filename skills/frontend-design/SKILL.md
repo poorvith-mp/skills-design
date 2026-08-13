@@ -1,7 +1,9 @@
 ---
 name: frontend-design
 description: >-
-  This skill guides creation of distinctive, production-grade frontend interfaces that avoid generic 'AI slop' aesthetics. Implement real working code with exceptional attention to aesthetic details and creative choices. The user provides frontend requirements: a component, page, application, or interface to build. They may include context about the purpose, audience, or technical constraints. ## Design Thinking Before coding, understand the context and commit to a BOLD aesthetic direction: - \\Purpose\\: What problem does this interface solve? Who uses it? - \\Tone\\: Pick an extreme: brutally minimal, maximalist chaos, retro-futuristic, organic/natural, luxury/refined, playful/toy-like, editorial/magazine, brutalist/raw, art deco/geometric, soft/pastel, industrial/utilitarian, etc. There are so many flavors to choose from. Use these for inspiration but design one that is true to the. Use when working on frontend design, generating related artifacts, or analyzing domain requirements.
+  Builds distinctive, production-grade frontend interfaces with real working code, avoiding
+  generic AI-template aesthetics. Use when implementing a UI that has to look considered rather
+  than default.
 ---
 
 # Frontend Design

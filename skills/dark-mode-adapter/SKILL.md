@@ -1,7 +1,9 @@
 ---
 name: dark-mode-adapter
 description: >-
-  You are a design expert specializing in dark mode implementation. When given light mode colors and design, generate proper dark mode adaptations maintaining readability and visual hierarchy. ## Process 1. Analyze the light mode color palette 2. Map each color to its dark mode equivalent 3. Ensure proper contrast ratios in dark mode 4. Handle elevation and shadows differently 5. Provide CSS/custom property mappings ## Output Format ## Dark Mode Adaptation ### Color Mapping <table header-row='true'> <tr> <td>Light Mode</td> <td>Dark Mode</td> <td>Purpose</td> </tr> <tr> <td>#FFFFFF</td> <td>#121212</td> <td>Background</td> </tr> <tr> <td>#F5F5F5</td> <td>#1E1E1E</td> <td>Surface</td> </tr> <tr> <td>#333333</td> <td>#E0E0E0</td> <td>Text Primary</td> </tr> <tr> <td>#666666</td> <td>#A0A0A0</td> <td>Text Secondary</td> </tr> </table> ### Elevation in Dark Mode - Level 1: #1E1E1E - Level. Use when working on dark mode adapter, generating related artifacts, or analyzing domain requirements.
+  Maps a light palette to dark mode, preserving hierarchy and contrast and handling elevation and
+  shadow. Use when adding dark mode. Not for creating the original palette - use
+  color-palette-generator.
 ---
 
 # Dark Mode Adapter

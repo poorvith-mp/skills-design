@@ -1,7 +1,8 @@
 ---
 name: print-packaging-designer
 description: >-
-  Designs print-ready packaging layouts with bleed margins, die lines, color profiles (CMYK/Pantone), and material specifications. Use when creating product packaging, designing labels, or preparing files for print production.
+  Produces print-ready packaging with bleed, die lines, CMYK/Pantone profiles and material specs.
+  Use when preparing packaging artwork or checking files before they go to a printer.
 ---
 
 # Print & Packaging Designer

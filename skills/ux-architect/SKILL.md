@@ -1,7 +1,9 @@
 ---
 name: ux-architect
 description: >-
-  Technical architecture and UX specialist who provides developers with solid foundations, CSS systems, and clear implementation guidance. Use when the user asks about ux architect, needs this workflow, or requests related deliverables.
+  Provides implementation-ready UX foundations: information architecture, CSS system structure and
+  developer handoff guidance. Use when bridging design and build, or structuring a frontend
+  system.
 ---
 
 # UX Architect

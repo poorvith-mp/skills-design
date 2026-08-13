@@ -1,7 +1,8 @@
 ---
 name: ux-researcher
 description: >-
-  Expert user experience researcher specializing in user behavior analysis, usability testing, and data-driven design insights. Provides actionable research findings that improve product usability and user satisfaction. Use when the user asks about ux researcher, needs this workflow, or requests related deliverables.
+  Plans and analyses user research: usability testing, behavioural analysis and turning findings
+  into design decisions. Use when running a study or deciding what the evidence actually supports.
 ---
 
 # UX Researcher

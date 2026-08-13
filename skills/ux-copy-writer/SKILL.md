@@ -1,7 +1,9 @@
 ---
 name: ux-copy-writer
 description: >-
-  Writes UX microcopy for interfaces including button labels, error messages, empty states, onboarding tooltips, confirmation dialogs, and accessibility text. Use when writing interface copy, improving error message clarity, or creating voice-and-tone guidelines for products.
+  Writes interface microcopy: button labels, error messages, empty states, tooltips, confirmation
+  dialogs and accessible text. Use when writing production UI text. Not for mockup filler - use
+  figma-to-copy.
 ---
 
 # UX Copy Writer

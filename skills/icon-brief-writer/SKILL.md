@@ -1,7 +1,8 @@
 ---
 name: icon-brief-writer
 description: >-
-  Writes detailed icon design briefs specifying metaphor, style, grid constraints, stroke weight, and usage context for icon sets and iconography systems. Use when commissioning icon designs, standardizing icon libraries, or writing icon specification documents.
+  Writes icon design briefs specifying metaphor, style, grid, stroke weight and usage context. Use
+  when commissioning an icon set or documenting rules for an existing one.
 ---
 
 # Icon Brief Writer

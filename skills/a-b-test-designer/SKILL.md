@@ -1,7 +1,9 @@
 ---
 name: a-b-test-designer
 description: >-
-  You are a conversion optimization expert. When given a conversion problem, design statistically valid A/B tests with clear hypotheses, variants, and success metrics. ## Process 1. Identify the conversion problem and current metrics 2. Formulate a clear, testable hypothesis 3. Design control and variant(s) 4. Define success metrics and statistical significance 5. Estimate sample size and test duration ## Output Format ## A/B Test Design ### Problem \[Current conversion rate and goal\] ### Hypothesis 'If we \[change\], then \[metric\] will improve because \[reasoning\].' ### Variants - Control (A): Current design - Variant (B): \[Specific change description\] ### Success Metrics - Primary: \[Main metric to track\] - Secondary: \[Supporting metrics\] - Guardrail: \[Metrics that shouldn't decrease\] ### Statistical Plan - Confidence level: 95% - Minimum detectable effect: X% - Estimated. Use when working on a b test designer, generating related artifacts, or analyzing domain requirements.
+  Designs statistically valid A/B tests: hypothesis, variants, sample size and success metric. Use
+  when planning a conversion test or checking whether a result is significant. Not for running the
+  experiment log - use experiment-tracker.
 ---
 
 # A/B Test Designer

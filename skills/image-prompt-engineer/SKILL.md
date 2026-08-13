@@ -1,7 +1,8 @@
 ---
 name: image-prompt-engineer
 description: >-
-  Expert photography prompt engineer specializing in crafting detailed, evocative prompts for AI image generation. Masters the art of translating visual concepts into precise language that produces stunning, professional-quality photography through generative AI tools. Use when the user asks about image prompt engineer, needs this workflow, or requests related deliverables.
+  Writes detailed prompts for AI image generation, translating a visual concept into subject,
+  lighting, lens, composition and style. Use when a generated image keeps missing the intent.
 ---
 
 # Image Prompt Engineer Agent

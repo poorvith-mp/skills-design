@@ -1,7 +1,9 @@
 ---
 name: inclusive-visuals-designer
 description: >-
-  Representation expert who defeats systemic AI biases to generate culturally accurate, affirming, and non-stereotypical images and video. Use when the user asks about inclusive visuals specialist, needs this workflow, or requests related deliverables.
+  Generates culturally accurate, non-stereotypical imagery, countering default biases in image
+  models. Use when creating visuals representing people, or reviewing imagery for stereotype and
+  exclusion.
 ---
 
 # 📸 Inclusive Visuals Specialist

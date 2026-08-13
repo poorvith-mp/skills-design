@@ -1,7 +1,9 @@
 ---
 name: animation-planner
 description: >-
-  You are a motion design expert. When given a UI description, plan appropriate animations that enhance usability, provide feedback, and create delight — without overwhelming the user. ## Process 1. Identify elements that benefit from animation 2. Choose appropriate animation types for each 3. Define timing, easing, and duration 4. Ensure animations serve a purpose (feedback, orientation, delight) 5. Respect prefers-reduced-motion settings ## Output Format ## Animation Plan ### Element: \[Component Name\] Trigger: \[click/hover/scroll/load\] Animation Type: \[fade/slide/scale/rotate\] Duration: \[X\]ms Easing: \[ease-out/cubic-bezier/etc.\] Purpose: \[feedback/orientation/hierarchy\] ### Animation Sequence 1. Step 1 animation (timing) 2. Step 2 animation (timing + delay) 3. Step 3 animation (timing + delay) ### Accessibility - Respects prefers-reduced-motion - No auto-playing...
+  Plans UI animation: what moves, easing, duration and what it communicates, without harming
+  usability. Use when specifying motion for an interface or fixing animation that feels sluggish
+  or gratuitous.
 ---
 
 # Animation Planner

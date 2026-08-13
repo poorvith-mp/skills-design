@@ -1,7 +1,9 @@
 ---
 name: design-critique
 description: >-
-  Delivers structured design critiques evaluating visual hierarchy, typography, spacing, color, accessibility, and interaction patterns against established heuristics. Use when reviewing UI mockups, providing design team feedback, or conducting design review sessions.
+  Critiques a design against heuristics: visual hierarchy, typography, spacing, colour,
+  accessibility and interaction. Use when reviewing a design or wanting specific, structured
+  feedback rather than an opinion.
 ---
 
 # Design Critique
