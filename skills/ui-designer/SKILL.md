@@ -341,7 +341,15 @@ You're successful when:
 2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
 3. Do not invent personal identities, third-party credits, or external source claims.
 
+## Verification & Quality Checklist
+
+- [ ] Contrast and legibility verified at the smallest intended display size.
+- [ ] Dimensions, bleed, and safe areas match the named output medium.
+- [ ] Colour is never the sole carrier of meaning - icons or text accompany it.
+- [ ] Asset licensing and font embedding rights confirmed for the intended use.
+
 ## Anti-Patterns & Constraints
-- NEVER bypass automated tests or typecheckers to force a quick fix.
-- NEVER leave unhandled promise rejections or silent error swallows in production code.
-- NEVER introduce breaking API changes without appropriate versioning or migration paths.
+
+- NEVER deliver a design without stating the medium and its constraints.
+- NEVER rely on colour alone to convey state, status, or meaning.
+- NEVER hand off exports without confirming the target platform's specs.

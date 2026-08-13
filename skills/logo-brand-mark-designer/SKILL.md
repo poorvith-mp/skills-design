@@ -26,7 +26,7 @@ A logo has to work at both a 16px favicon and a building-sized sign — that con
 - Use a **single, ideally even-odd-safe path** for a monochrome mark where possible, so it scales and recolors cleanly.
 - Keep the design within a square or defined bounding box (e.g. 100x100 viewBox) so it's simple to place consistently across contexts.
 
-## What NOT to do
+## Anti-Patterns & Constraints
 
 - Don't reproduce or closely imitate any real, identifiable existing brand's logo — even as a "starting point" or "inspired by" reference, per copyright and trademark boundaries.
 - Don't over-design with gradients, complex shadows, or fine detail that won't survive single-color or small-size reproduction — a logo isn't an illustration.
@@ -36,7 +36,8 @@ A logo has to work at both a 16px favicon and a building-sized sign — that con
 Provide the mark as clean SVG code, plus a short rationale (2-4 sentences) connecting the specific design choices back to the brand adjectives given. If presenting multiple concepts, keep them genuinely distinct in approach (e.g. one wordmark-led, one icon-led), not variations on the same idea.
 
 ## Verification & Quality Checklist
-- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
-- [ ] Edge cases, boundary conditions, and error states handled explicitly.
-- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
-- [ ] Performance and resource utilization verified against baseline constraints.
+
+- [ ] Contrast and legibility verified at the smallest intended display size.
+- [ ] Dimensions, bleed, and safe areas match the named output medium.
+- [ ] Colour is never the sole carrier of meaning - icons or text accompany it.
+- [ ] Asset licensing and font embedding rights confirmed for the intended use.

@@ -41,12 +41,14 @@ Animation planning describes what should happen; this skill specifies exactly ho
 Follow with the actual implementation code if the target is CSS/SVG/JS.
 
 ## Verification & Quality Checklist
-- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
-- [ ] Edge cases, boundary conditions, and error states handled explicitly.
-- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
-- [ ] Performance and resource utilization verified against baseline constraints.
+
+- [ ] Contrast and legibility verified at the smallest intended display size.
+- [ ] Dimensions, bleed, and safe areas match the named output medium.
+- [ ] Colour is never the sole carrier of meaning - icons or text accompany it.
+- [ ] Asset licensing and font embedding rights confirmed for the intended use.
 
 ## Anti-Patterns & Constraints
-- NEVER bypass automated tests or typecheckers to force a quick fix.
-- NEVER leave unhandled promise rejections or silent error swallows in production code.
-- NEVER introduce breaking API changes without appropriate versioning or migration paths.
+
+- NEVER deliver a design without stating the medium and its constraints.
+- NEVER rely on colour alone to convey state, status, or meaning.
+- NEVER hand off exports without confirming the target platform's specs.
