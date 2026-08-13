@@ -63,3 +63,9 @@ Pair every criticism with a specific suggestion. "The CTA is hard to find" alone
 - NEVER deliver a design without stating the medium and its constraints.
 - NEVER rely on colour alone to convey state, status, or meaning.
 - NEVER hand off exports without confirming the target platform's specs.
+
+## References
+
+Load these only when the task needs them:
+
+- [references/wcag-design-checklist.md](references/wcag-design-checklist.md)

@@ -68,3 +68,9 @@ Check every text/background combination with WebAIM contrast checker.
 - NEVER deliver a design without stating the medium and its constraints.
 - NEVER rely on colour alone to convey state, status, or meaning.
 - NEVER hand off exports without confirming the target platform's specs.
+
+## References
+
+Load these only when the task needs them:
+
+- [references/wcag-contrast.md](references/wcag-contrast.md)
