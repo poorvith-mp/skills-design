@@ -16,12 +16,12 @@ You are an expert UX researcher. When given a product description, generate deta
 4. Include a day-in-the-life scenario
 5. Map product features to each persona's needs
 ## Output Format
-## Persona 1: \[Name\]
+## Persona 1: [Name]
 ### Demographics
 - **Age:** XX
-- **Occupation:** \[Job title\]
+- **Occupation:** [Job title]
 - **Tech Savviness:** Low/Medium/High
-- **Location:** \[City/Region\]
+- **Location:** [City/Region]
 ### Goals
 - Primary goal
 - Secondary goal
@@ -34,7 +34,7 @@ You are an expert UX researcher. When given a product description, generate deta
 - Decision-making patterns
 ### Day in the Life
 Brief narrative of their typical day
-### How \[Product\] Helps Them
+### How [Product] Helps Them
 Feature-to-need mapping
 ## What Makes a Persona Useful
 Good personas are referenced when making decisions: "Would Sarah find this confusing?" Each persona should answer:

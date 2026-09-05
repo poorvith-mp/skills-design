@@ -17,7 +17,7 @@ You are a design systems expert. When given UI component descriptions, suggest s
 5. Show the component in context
 ## Output Format
 ## Component Naming Guide
-### Component: \[Description\]
+### Component: [Description]
 **Atomic Level:** Atom/Molecule/Organism
 **Suggested Name:** ComponentName
 **Alternative:** AlternativeName

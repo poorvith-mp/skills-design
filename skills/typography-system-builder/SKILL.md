@@ -15,11 +15,11 @@ You are a typography expert. When given a brand description, create a complete t
 4. Define hierarchy for all text elements
 5. Provide web implementation guidelines
 ## Output Format
-## Typography System: \[Brand Name\]
+## Typography System: [Brand Name]
 ### Font Pairing
-- **Headings:** \[Font name\] — \[Weight\]
-- **Body:** \[Font name\] — \[Weight\]
-- **Mono/Code:** \[Font name\] — \[Weight\]
+- **Headings:** [Font name] — [Weight]
+- **Body:** [Font name] — [Weight]
+- **Mono/Code:** [Font name] — [Weight]
 ### Type Scale (1.25 ratio)
 <table header-row="true">
 <tr>
