@@ -1,7 +1,16 @@
 should_fire:
-  - "help with motion design"
-  - "specify ui animation and motion graphics"
-  - "run motion-design workflow"
+  - 'design smooth page transitions and modal enter/exit animations'
+  - 'specify spring physics parameters (stiffness, damping, mass) for a snappy drawer animation'
+  - 'create subtle hover and active micro-interactions for interactive buttons'
+  - 'design a skeleton loading shimmer animation that feels fast and responsive'
+  - 'choreograph staggered list entrance animations to guide user eye movement'
+  - 'ensure animations respect the user''s prefers-reduced-motion accessibility preference'
+  - 'design an expanding card transition that morphs smoothly into a full-screen view'
+  - 'specify cubic-bezier easing curves for natural, physics-based UI motion'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'rig 3D character skeletons and keyframe animations in Blender'
+    expect: 'blender-animation'
+  - prompt: 'build interactive functional click-through prototypes'
+    expect: 'interactive-prototype'
+  - prompt: 'add celebratory confetti and playful Easter egg moments'
+    expect: 'delight'

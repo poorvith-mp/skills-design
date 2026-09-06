@@ -1,7 +1,9 @@
 ---
 name: brand-system
+group: Brand
 description: >-
-  Build brand identity end to end: voice, logomarks, adaptive logo systems and usage rules.
+  Build brand identity end to end: voice, logomarks, adaptive logo systems and usage rules. Use
+  when defining brand guidelines, logos, iconography, or visual assets.
 ---
 # Brand System
 

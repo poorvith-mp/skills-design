@@ -1,7 +1,9 @@
 ---
 name: color-system
+group: Design system
 description: >-
-  Turn a chosen direction into a real palette: tints, WCAG contrast, dark mode mapping, elevation and tokens.
+  Turn a chosen direction into a real palette: tints, WCAG contrast, dark mode mapping, elevation
+  and tokens. Use when building semantic color tokens, dark mode palettes, or contrast scales.
 ---
 # Color System
 

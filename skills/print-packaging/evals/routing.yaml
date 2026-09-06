@@ -1,7 +1,16 @@
 should_fire:
-  - "help with print packaging"
-  - "produce print-ready packaging with bleed, die lines, cmyk/pantone profiles and material specs."
-  - "run print-packaging workflow"
+  - 'design custom packaging box artwork with precise die-lines, bleed, and safe zones'
+  - 'prepare print-ready vector artwork in CMYK color space with 300 DPI resolution'
+  - 'design high-quality branded swag: developer t-shirts, hoodies, and sticker sheets'
+  - 'choose print finishes: spot UV coating, matte lamination, embossing, and foil stamping'
+  - 'design trade show booth banners and roll-up displays for an upcoming developer conference'
+  - 'create a physical product unboxing experience that delights customers'
+  - 'review pre-press proofs from our printing vendor to catch color shifts and banding'
+  - 'design printed collateral: product manuals, quick-start cards, and packaging inserts'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'design digital social graphics and Open Graph images'
+    expect: 'visual-assets'
+  - prompt: 'design corporate brand identity and logo systems'
+    expect: 'brand-system'
+  - prompt: 'manage physical supply chain logistics and manufacturing lead times'
+    expect: 'supply-chain'

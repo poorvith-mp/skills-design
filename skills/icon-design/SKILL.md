@@ -1,7 +1,9 @@
 ---
 name: icon-design
+group: Brand
 description: >-
-  Write icon briefs specifying metaphor, style, grid, stroke weight and usage context.
+  Write icon briefs specifying metaphor, style, grid, stroke weight and usage context. Use when
+  crafting custom SVG icon sets, glyphs, or pixel-perfect grids.
 ---
 # Icon Design
 

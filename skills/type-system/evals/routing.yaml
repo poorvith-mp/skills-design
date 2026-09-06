@@ -1,7 +1,16 @@
 should_fire:
-  - "help with type system"
-  - "build the type scale, font pairing, hierarchy rules, line height and vertical rhythm."
-  - "run type-system workflow"
+  - 'design a modular typographic scale (Minor Third or Major Second) for our web app'
+  - 'pair a distinctive display serif with a clean, readable sans-serif body font'
+  - 'define fluid typography scales using CSS clamp() for responsive viewports'
+  - 'establish line-height, letter-spacing (tracking), and paragraph rhythm standards'
+  - 'choose a high-performance monospace font for code blocks in our technical docs'
+  - 'define font-weight hierarchy: regular, medium, semibold, and bold usage rules'
+  - 'optimize web font loading strategies (font-display: swap, subsetting) to eliminate layout shifts'
+  - 'create a complete typographic token specification for Figma and CSS'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'design color palettes and semantic tokens'
+    expect: 'color-system'
+  - prompt: 'build reusable button and modal components in Figma'
+    expect: 'component-library'
+  - prompt: 'write UX microcopy and error message wording'
+    expect: 'ui-copy'

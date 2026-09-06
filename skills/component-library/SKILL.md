@@ -1,7 +1,9 @@
 ---
 name: component-library
+group: Design system
 description: >-
-  Design the component set with consistent structure, states and semantic naming.
+  Design the component set with consistent structure, states and semantic naming. Use when
+  creating reusable Figma components, variants, or design libraries.
 ---
 # Component Library
 

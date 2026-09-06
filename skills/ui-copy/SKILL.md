@@ -1,7 +1,10 @@
 ---
 name: ui-copy
+group: Interface
 description: >-
-  Write interface microcopy — buttons, errors, empty states, tooltips — and replace placeholder text with real copy.
+  Write interface microcopy — buttons, errors, empty states, tooltips — and replace placeholder
+  text with real copy. Use when writing UI microcopy, button labels, empty states, or error
+  messages.
 ---
 # UI Copy
 

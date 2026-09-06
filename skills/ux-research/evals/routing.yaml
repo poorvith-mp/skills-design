@@ -1,7 +1,16 @@
 should_fire:
-  - "help with ux research"
-  - "plan and run usability studies and behavioural analysis, then turn findings into research-backed personas."
-  - "run ux-research workflow"
+  - 'plan a moderated usability testing protocol to observe where users struggle in our app'
+  - 'map the end-to-end customer journey map and identify moments of user frustration'
+  - 'conduct tree testing to evaluate how intuitively users find settings in our navigation'
+  - 'analyze screen recording sessions in FullStory to diagnose drop-off during checkout'
+  - 'synthesize usability test findings into prioritized UX design recommendations'
+  - 'design a card sorting exercise to optimize our information architecture taxonomy'
+  - 'identify cognitive friction and split-attention effects in our complex dashboard UI'
+  - 'run think-aloud usability interviews to evaluate a new navigation prototype'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'conduct customer interviews to uncover buyer language and pain points'
+    expect: 'customer-research'
+  - prompt: 'critique a UI design layout for visual balance and hierarchy'
+    expect: 'design-critique'
+  - prompt: 'design responsive wireframes and interface screens'
+    expect: 'ui-design'

@@ -1,7 +1,16 @@
 should_fire:
-  - "help with delight"
-  - "add personality through microinteractions, copy moments and easter eggs, without harming usability."
-  - "run delight workflow"
+  - 'design a rewarding completion moment when a user finishes their first task'
+  - 'add tasteful celebratory micro-animations (like subtle confetti) without slowing users down'
+  - 'craft a clever 404 page with an interactive Easter egg that reinforces our brand'
+  - 'incorporate charming micro-copy and personality into our command palette'
+  - 'design playful loading states that keep users engaged during 3-second data fetches'
+  - 'add tactile haptic feedback cues and audio chimes for key mobile milestones'
+  - 'how do we inject humor and humanity into a developer tool without being annoying'
+  - 'create memorable signature moments in our product that people love to tweet about'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'design core UI layouts, navigation, and form screens'
+    expect: 'ui-design'
+  - prompt: 'specify core UI spring physics, easing, and page transitions'
+    expect: 'motion-design'
+  - prompt: 'write clear functional UI microcopy and error messages'
+    expect: 'ui-copy'

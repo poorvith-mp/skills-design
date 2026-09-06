@@ -1,7 +1,9 @@
 ---
 name: ui-design
+group: Interface
 description: >-
-  Design screen layouts and visual systems for a product surface.
+  Design screen layouts and visual systems for a product surface. Use when designing user
+  interfaces, dashboard screens, or visual layouts.
 ---
 # UI Design
 

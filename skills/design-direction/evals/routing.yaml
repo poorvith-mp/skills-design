@@ -1,7 +1,16 @@
 should_fire:
-  - "help with design direction"
-  - "choose the visual genre that fits the product, audience and category — editorial, brutalist, swiss, retro, soft-tech — and commit with references."
-  - "run design-direction workflow"
+  - 'help us establish the visual design direction and genre for our new software product'
+  - 'curate an aesthetic moodboard contrasting Swiss minimalist vs Neo-brutalist styles'
+  - 'define the creative visual tone, lighting, and textures for our brand refresh'
+  - 'how do we commit to an editorial, typography-first aesthetic without looking plain'
+  - 'evaluate whether a retro-computing or clean modern aesthetic better fits our developer tool'
+  - 'create visual design principles that guide our product UI and marketing assets'
+  - 'explore creative visual metaphors that express security and extreme speed'
+  - 'critique our brand''s visual identity for consistency and genre coherence'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'critique a specific UI screen for generic AI visual tells'
+    expect: 'design-taste'
+  - prompt: 'design a complete brand logo, mark, and typography guidelines'
+    expect: 'brand-system'
+  - prompt: 'choose semantic UI color palettes and contrast ratios'
+    expect: 'color-system'

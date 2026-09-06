@@ -1,7 +1,16 @@
 should_fire:
-  - "help with frontend design"
-  - "build distinctive, production-grade interfaces in real code, avoiding generic ai-default layouts."
-  - "run frontend-design workflow"
+  - 'translate this Figma design into pixel-perfect Tailwind CSS and HTML'
+  - 'build a complex responsive layout using CSS Grid and Flexbox with zero layout shifts'
+  - 'implement custom CSS animations and micro-interactions matching designer specs'
+  - 'style advanced custom form controls (sliders, switches, file uploads) in pure CSS'
+  - 'fix frustrating CSS layout bugs: unwanted scrollbars, z-index collisions, flex clipping'
+  - 'implement a clean dark mode theme switcher using CSS custom properties (variables)'
+  - 'optimize CSS performance: eliminate render-blocking stylesheets and unused classes'
+  - 'create fluid, responsive typography and spacing using modern CSS clamp() rules'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'build React application state logic, data fetching, and hooks'
+    expect: 'frontend-build'
+  - prompt: 'design responsive grid layout rules and breakpoints in Figma'
+    expect: 'responsive-rules'
+  - prompt: 'audit website Core Web Vitals and JavaScript bundle sizes'
+    expect: 'performance-audit'

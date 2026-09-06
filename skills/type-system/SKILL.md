@@ -1,7 +1,9 @@
 ---
 name: type-system
+group: Design system
 description: >-
-  Build the type scale, font pairing, hierarchy rules, line height and vertical rhythm.
+  Build the type scale, font pairing, hierarchy rules, line height and vertical rhythm. Use when
+  defining typographic scales, modular ratios, fonts, or line-heights.
 ---
 # Type System
 

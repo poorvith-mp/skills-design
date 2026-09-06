@@ -1,7 +1,9 @@
 ---
 name: motion-design
+group: Interface
 description: >-
-  Specify UI animation and motion graphics: what moves, easing, timing, audio sync points and export settings.
+  Specify UI animation and motion graphics: what moves, easing, timing, audio sync points and
+  export settings. Use when designing UI transitions, spring physics, or micro-interactions.
 ---
 # Motion Design
 

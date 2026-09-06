@@ -1,7 +1,10 @@
 ---
 name: interactive-prototype
+group: Interface
 description: >-
-  Turn a design into a clickable prototype with real flows, states and transitions, ready to put in front of users.
+  Turn a design into a clickable prototype with real flows, states and transitions, ready to put
+  in front of users. Use when building clickable Figma prototypes, state flows, or
+  micro-interactions.
 ---
 # Interactive Prototype
 

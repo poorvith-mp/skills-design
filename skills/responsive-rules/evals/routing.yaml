@@ -1,7 +1,16 @@
 should_fire:
-  - "help with responsive rules"
-  - "define breakpoint strategy, fluid type scales and adaptive layout behaviour across devices."
-  - "run responsive-rules workflow"
+  - 'define our responsive grid system: column counts, gutters, and page margins'
+  - 'establish screen breakpoint tokens: mobile (375px), tablet (768px), desktop (1280px)'
+  - 'how should this multi-column analytics dashboard adapt to mobile viewports'
+  - 'design responsive rules for collapsing navigation drawers on smaller screens'
+  - 'create fluid spacing rules that scale smoothly between mobile and ultra-wide monitors'
+  - 'handle complex data table overflow and card transformation on mobile devices'
+  - 'design responsive layout behavior for modal dialogs becoming bottom sheets on iOS'
+  - 'specify responsive reflow behavior for sticky sidebars and toolbars'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write responsive CSS media queries and flexbox in code'
+    expect: 'frontend-design'
+  - prompt: 'design individual Figma component variants'
+    expect: 'component-library'
+  - prompt: 'design controller-first game HUDs and menus'
+    expect: 'game-ui'

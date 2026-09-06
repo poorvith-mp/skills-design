@@ -1,7 +1,16 @@
 should_fire:
-  - "help with brand system"
-  - "build brand identity end to end"
-  - "run brand-system workflow"
+  - 'create comprehensive brand guidelines for our software startup: logo, fonts, colors'
+  - 'design the primary brand mark, logotype, and favicon symbol for our company'
+  - 'define clear rules for logo exclusion zones, minimum sizes, and improper usage'
+  - 'establish a cohesive visual brand language across product, web, and swag'
+  - 'design brand collateral: business cards, slide deck templates, and email signatures'
+  - 'create a brand book that external agency partners can follow without ambiguity'
+  - 'audit our current brand touchpoints to eliminate visual inconsistencies'
+  - 'evolve our legacy brand identity into a modern, developer-first visual identity'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'establish high-level visual aesthetic genre and moodboard styles'
+    expect: 'design-direction'
+  - prompt: 'design custom SVG icon sets for UI interfaces'
+    expect: 'icon-design'
+  - prompt: 'craft company positioning, messaging pillars, and ICP'
+    expect: 'positioning'

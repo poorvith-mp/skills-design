@@ -1,7 +1,9 @@
 ---
 name: information-architecture
+group: Interface
 description: >-
   Structure navigation, hierarchy and content models, and hand engineering an implementable spec.
+  Use when structuring app navigation, sitemaps, hierarchy, or taxonomies.
 ---
 # Information Architecture
 

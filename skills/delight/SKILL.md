@@ -1,7 +1,9 @@
 ---
 name: delight
+group: Interface
 description: >-
-  Add personality through microinteractions, copy moments and easter eggs, without harming usability.
+  Add personality through microinteractions, copy moments and easter eggs, without harming
+  usability. Use when adding tasteful Easter eggs, celebratory animations, or personality.
 ---
 # Delight
 

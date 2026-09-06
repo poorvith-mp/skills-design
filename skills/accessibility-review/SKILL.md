@@ -1,7 +1,9 @@
 ---
 name: accessibility-review
+group: Research and evaluation
 description: >-
-  Check a design for contrast, target size, focus order and motion safety before anything gets built.
+  Check a design for contrast, target size, focus order and motion safety before anything gets
+  built. Use when auditing color contrast, focus states, tap targets, or ARIA UX.
 ---
 # Accessibility Review
 

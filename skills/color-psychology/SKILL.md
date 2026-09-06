@@ -1,7 +1,9 @@
 ---
 name: color-psychology
+group: Direction
 description: >-
-  Work out what colours should say here: category conventions, emotional association, cultural meaning, and what competitors already own.
+  Define color meaning: category conventions, emotional resonance, cultural symbolism, and owner
+  gaps. Use when analyzing color psychology or brand palettes.
 ---
 # Color Psychology
 

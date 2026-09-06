@@ -1,7 +1,9 @@
 ---
 name: design-direction
+group: Direction
 description: >-
-  Choose the visual genre that fits the product, audience and category — editorial, brutalist, swiss, retro, soft-tech — and commit with references.
+  Choose the visual genre fitting product and audience: editorial, brutalist, swiss, retro,
+  soft-tech. Use when establishing visual direction or moodboards.
 ---
 # Design Direction
 

@@ -1,7 +1,9 @@
 ---
 name: ux-research
+group: Research and evaluation
 description: >-
-  Plan and run usability studies and behavioural analysis, then turn findings into research-backed personas.
+  Plan and run usability studies and behavioural analysis, then turn findings into research-backed
+  personas. Use when running usability tests, journey mapping, or observing user behavior.
 ---
 # UX Research
 

@@ -1,7 +1,16 @@
 should_fire:
-  - "help with accessibility review"
-  - "check a design for contrast, target size, focus order and motion safety before anything gets built."
-  - "run accessibility-review workflow"
+  - 'audit this UI design for WCAG 2.1 AA and AAA color contrast compliance'
+  - 'ensure our interactive buttons and icons have minimum 44x44px touch targets'
+  - 'check that our form input error states do not rely solely on color to communicate'
+  - 'review focus indicator visibility and tab order navigation across our design system'
+  - 'design accessible modal dialog behaviors: background dimming and focus trapping'
+  - 'evaluate our typography and line-heights for users with low vision or dyslexia'
+  - 'ensure dynamic status messages and toasts have proper visual persistence'
+  - 'audit dark mode designs to prevent blinding high-contrast glare for sensitive eyes'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'refactor HTML/JSX source code to fix ARIA attributes and keyboard listeners'
+    expect: 'accessibility-fix'
+  - prompt: 'critique general visual layout and aesthetic hierarchy'
+    expect: 'design-critique'
+  - prompt: 'design full application interface screens from scratch'
+    expect: 'ui-design'

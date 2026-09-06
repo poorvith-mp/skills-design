@@ -1,7 +1,16 @@
 should_fire:
-  - "help with color system"
-  - "turn a chosen direction into a real palette"
-  - "run color-system workflow"
+  - 'build a semantic color token system: surface-primary, text-muted, border-subtle'
+  - 'design an accessible dark mode palette that avoids pure #000000 black surfaces'
+  - 'generate 10-step perceptual color scales (50 to 950) using OKLCH color space'
+  - 'map semantic tokens to light and dark theme modes with consistent contrast'
+  - 'define functional color palettes for success, warning, destructive, and info states'
+  - 'structure color design tokens in Figma and export them as CSS variables'
+  - 'ensure all text and background token pairings achieve minimum 4.5:1 contrast'
+  - 'organize brand colors vs neutral surface colors in our design system'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'explore emotional and psychological associations of colors'
+    expect: 'color-psychology'
+  - prompt: 'audit UI screens for accessibility contrast violations'
+    expect: 'accessibility-review'
+  - prompt: 'build full UI component libraries in Figma'
+    expect: 'component-library'

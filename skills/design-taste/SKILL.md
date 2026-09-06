@@ -1,7 +1,9 @@
 ---
 name: design-taste
+group: Research and evaluation
 description: >-
-  Find and fix the signatures that make a design read as AI-generated: gradient-blob hero, three identical cards, purple-on-white, rounded-everything.
+  Find and fix AI design signatures: gradient blobs, three identical cards, purple-on-white. Use
+  when eliminating generic AI design tropes and templates.
 ---
 # Design Taste
 

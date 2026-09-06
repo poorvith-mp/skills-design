@@ -1,7 +1,9 @@
 ---
 name: design-critique
+group: Research and evaluation
 description: >-
-  Critique a design against heuristics: visual hierarchy, typography, spacing, colour and accessibility.
+  Critique a design against heuristics: visual hierarchy, typography, spacing, colour and
+  accessibility. Use when reviewing visual hierarchy, layout balance, spacing, or typography.
 ---
 # Design Critique
 

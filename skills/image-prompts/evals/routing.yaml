@@ -1,7 +1,16 @@
 should_fire:
-  - "help with image prompts"
-  - "write ai image prompts covering subject, lighting and composition, countering the models' bias toward stereotyped depictions."
-  - "run image-prompts workflow"
+  - 'write detailed Midjourney v6 prompts to generate cinematic editorial photography'
+  - 'craft prompt parameters (--ar 16:9, --stylize, --chaos) for Flux and Midjourney'
+  - 'how do we prompt for a clean, isometric 3D clay render of cloud server racks'
+  - 'prompt an AI image generator for consistent character portraits across multiple angles'
+  - 'write prompts specifying lighting, lens focal length (85mm f/1.4), and film stock aesthetics'
+  - 'refine this vague image prompt into a detailed, high-contrast visual description'
+  - 'prompt for abstract technical background textures that don''t look like generic AI slop'
+  - 'avoid distorted hands and uncanny plastic skin when prompting AI portrait generators'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'design static marketing banner graphics and Open Graph cards'
+    expect: 'visual-assets'
+  - prompt: 'author text prompts and instructions for autonomous AI agents'
+    expect: 'prompt-engineering'
+  - prompt: 'produce and edit finished promotional marketing videos'
+    expect: 'video-production'

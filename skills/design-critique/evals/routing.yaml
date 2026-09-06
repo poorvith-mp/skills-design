@@ -1,7 +1,16 @@
 should_fire:
-  - "help with design critique"
-  - "critique a design against heuristics"
-  - "run design-critique workflow"
+  - 'critique this dashboard UI screen for visual balance, typography, and hierarchy'
+  - 'why does this landing page layout feel cluttered and hard to scan'
+  - 'review the alignment, padding, and spacing rhythm across these card components'
+  - 'give me actionable design feedback on improving the visual polish of this app'
+  - 'evaluate whether the primary call to action has sufficient visual dominance'
+  - 'check our typography scale and line lengths for optimal readability and contrast'
+  - 'critique this mobile settings screen for touch targets and visual grouping'
+  - 'point out layout inconsistencies between our desktop and mobile views'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'audit a design for generic AI tropes like gradient blobs and purple cards'
+    expect: 'design-taste'
+  - prompt: 'conduct moderated user usability testing sessions'
+    expect: 'ux-research'
+  - prompt: 'audit web accessibility according to WCAG 2.1 AA standards'
+    expect: 'accessibility-review'

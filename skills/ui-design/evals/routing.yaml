@@ -1,7 +1,16 @@
 should_fire:
-  - "help with ui design"
-  - "design screen layouts and visual systems for a product surface."
-  - "run ui-design workflow"
+  - 'design a clean, dense developer dashboard interface for managing API keys'
+  - 'create high-fidelity UI screens for an enterprise analytics platform'
+  - 'design an intuitive settings page with tabbed navigation and danger zones'
+  - 'layout a modern billing and subscription management interface'
+  - 'design a search modal interface with keyboard shortcuts and instant results'
+  - 'create visual wireframes and UI mockups for our upcoming SaaS product'
+  - 'design an interactive node-based canvas interface for workflow automation'
+  - 'improve visual hierarchy and scanability across our complex admin screens'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'design HUDs and controller-first interfaces for video games'
+    expect: 'game-ui'
+  - prompt: 'code the React frontend components in TypeScript'
+    expect: 'frontend-build'
+  - prompt: 'critique a UI screen for layout balance and spacing issues'
+    expect: 'design-critique'

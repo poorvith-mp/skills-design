@@ -1,7 +1,9 @@
 ---
 name: image-prompts
+group: Implementation
 description: >-
-  Write AI image prompts covering subject, lighting and composition, countering the models' bias toward stereotyped depictions.
+  Write AI image prompts covering subject, lighting and composition, countering the models' bias
+  toward stereotyped depictions. Use when authoring Midjourney, Flux, or DALL-E AI image prompts.
 ---
 # Image Prompts
 

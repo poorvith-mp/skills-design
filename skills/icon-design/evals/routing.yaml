@@ -1,7 +1,16 @@
 should_fire:
-  - "help with icon design"
-  - "write icon briefs specifying metaphor, style, grid, stroke weight and usage context."
-  - "run icon-design workflow"
+  - 'design a cohesive 24x24px custom SVG icon set for our application UI'
+  - 'ensure uniform stroke weights, optical balance, and corner radiuses across our icons'
+  - 'craft distinctive product feature icons that match our brand personality'
+  - 'align icon vectors pixel-perfectly to a 24px pixel grid to prevent blurry anti-aliasing'
+  - 'design both outlined and solid filled variants for our navigation icon set'
+  - 'optimize SVG icon paths to minimize file size and remove redundant nodes'
+  - 'create custom metaphor icons for abstract technical concepts like ''rate limiting'''
+  - 'build an icon font or SVG symbol sprite sheet for our engineering team'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'design the primary company brand logo and logomark'
+    expect: 'brand-system'
+  - prompt: 'design full interface screens and dashboards'
+    expect: 'ui-design'
+  - prompt: 'generate images and illustrations using AI text prompts'
+    expect: 'image-prompts'

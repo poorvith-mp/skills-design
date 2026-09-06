@@ -1,7 +1,16 @@
 should_fire:
-  - "help with ui copy"
-  - "write interface microcopy — buttons, errors, empty states, tooltips — and replace placeholder text with real copy."
-  - "run ui-copy workflow"
+  - 'write clear, helpful error message copy when an API key validation fails'
+  - 'craft punchy button labels and action copy for our destructive confirmation modals'
+  - 'write engaging empty state copy that guides users to create their first project'
+  - 'improve tooltip microcopy explaining complex configuration settings'
+  - 'write user-friendly onboarding prompt text and permission request dialogs'
+  - 'eliminate passive voice and technical jargon from our application UI text'
+  - 'craft concise success toast notifications that confirm user actions'
+  - 'standardize microcopy conventions (Title Case vs Sentence case) across our app'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write long-form conversion copy for marketing landing pages'
+    expect: 'landing-copy'
+  - prompt: 'write long-form technical documentation guides'
+    expect: 'technical-docs'
+  - prompt: 'line-edit articles and essays for rhythm and conciseness'
+    expect: 'line-editing'

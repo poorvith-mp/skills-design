@@ -1,7 +1,16 @@
 should_fire:
-  - "help with color psychology"
-  - "work out what colours should say here"
-  - "run color-psychology workflow"
+  - 'what emotions and psychological associations are triggered by deep violet vs electric blue'
+  - 'analyze the color landscape of fintech competitors to find an unowned signature color'
+  - 'evaluate the cultural symbolism of our brand palette across Asian and Western markets'
+  - 'why does our current color scheme feel too playful for an enterprise compliance tool'
+  - 'choose accent colors that convey urgency and warning without feeling abrasive'
+  - 'how to use warm monochromatic neutrals to convey luxury and craftsmanship'
+  - 'understand the psychological impact of green vs blue on financial trust and security'
+  - 'audit our brand colors to ensure they stand out against dominant category conventions'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'build semantic color tokens (bg-primary, text-muted) in CSS/Tailwind'
+    expect: 'color-system'
+  - prompt: 'audit UI colors for WCAG 2.1 AA/AAA contrast ratios'
+    expect: 'accessibility-review'
+  - prompt: 'establish the high-level visual aesthetic and moodboard genre'
+    expect: 'design-direction'

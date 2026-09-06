@@ -1,7 +1,16 @@
 should_fire:
-  - "help with component library"
-  - "design the component set with consistent structure, states and semantic naming."
-  - "run component-library workflow"
+  - 'build a comprehensive button component in Figma with variants: size, state, and icon'
+  - 'design reusable input fields, dropdowns, and checkboxes with auto-layout'
+  - 'structure our Figma component library for scalability and team discoverability'
+  - 'create accessible modal, drawer, and tooltip components with proper nested variants'
+  - 'define component property names and boolean toggles to streamline designer workflows'
+  - 'organize our design system into foundations, atoms, molecules, and organisms'
+  - 'build complex data table components with sortable headers and expandable rows'
+  - 'maintain design system documentation and component usage guidelines in Figma'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'code React or Vue UI components in TypeScript and Tailwind'
+    expect: 'frontend-build'
+  - prompt: 'define typographic font scales and modular ratios'
+    expect: 'type-system'
+  - prompt: 'define responsive grid breakpoints and auto-layout rules'
+    expect: 'responsive-rules'

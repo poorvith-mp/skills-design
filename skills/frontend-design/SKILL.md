@@ -1,7 +1,9 @@
 ---
 name: frontend-design
+group: Implementation
 description: >-
-  Build distinctive, production-grade interfaces in real code, avoiding generic AI-default layouts.
+  Build distinctive, production-grade interfaces in real code, avoiding generic AI-default
+  layouts. Use when implementing pixel-perfect CSS, Tailwind, Flexbox, or responsive code.
 ---
 # Frontend Design
 

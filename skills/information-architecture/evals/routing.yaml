@@ -1,7 +1,16 @@
 should_fire:
-  - "help with information architecture"
-  - "structure navigation, hierarchy and content models, and hand engineering an implementable spec."
-  - "run information-architecture workflow"
+  - 'design the top-level navigation structure and menu hierarchy for our SaaS app'
+  - 'structure a complex multi-tenant settings taxonomy so users can find features'
+  - 'create a visual sitemap and page hierarchy for our product documentation'
+  - 'organize 50+ enterprise features into intuitive functional modules and buckets'
+  - 'should we use a persistent left sidebar or a top horizontal navigation bar'
+  - 'design breadcrumb hierarchy and nested URL routing paths for our app'
+  - 'reorganize our cluttered dashboard to prioritize the top 3 user workflows'
+  - 'conduct a card sort to validate user mental models for our navigation categories'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'design the visual UI screens and layouts in Figma'
+    expect: 'ui-design'
+  - prompt: 'plan the marketing content strategy and topic clusters'
+    expect: 'content-strategy'
+  - prompt: 'design schemas and relational tables in a database'
+    expect: 'database'

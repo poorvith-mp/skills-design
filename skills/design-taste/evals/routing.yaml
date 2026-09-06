@@ -1,7 +1,16 @@
 should_fire:
-  - "help with design taste"
-  - "find and fix the signatures that make a design read as ai-generated"
-  - "run design-taste workflow"
+  - 'audit our homepage design to kill the obvious AI-generated look and feel'
+  - 'eliminate the generic purple-on-black gradient blob aesthetic from our app'
+  - 'replace repetitive three-card feature grids with distinct, bespoke visual layouts'
+  - 'why does our startup website look like every other AI template on Product Hunt'
+  - 'inject craft, intentionality, and authentic human taste into this sterile UI'
+  - 'strip away superfluous floating glassmorphism shapes and decorative fluff'
+  - 'make this technical developer tool interface feel authoritative, raw, and distinctive'
+  - 'critique our interface to ensure every visual element has a functional purpose'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'evaluate general typographic hierarchy and layout spacing'
+    expect: 'design-critique'
+  - prompt: 'establish the high-level brand visual direction and genre'
+    expect: 'design-direction'
+  - prompt: 'eliminate AI buzzwords and corporate cliches from written text'
+    expect: 'writing-taste'

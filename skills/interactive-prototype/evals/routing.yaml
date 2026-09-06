@@ -1,7 +1,16 @@
 should_fire:
-  - "help with interactive prototype"
-  - "turn a design into a clickable prototype with real flows, states and transitions, ready to put in front of users."
-  - "run interactive-prototype workflow"
+  - 'build a clickable interactive prototype in Figma demonstrating our checkout flow'
+  - 'connect Figma component variants to simulate realistic dropdown and hover states'
+  - 'prototype complex multi-step user flows with Smart Animate transitions'
+  - 'create a mobile prototype with realistic touch drag gestures and bottom sheets'
+  - 'simulate dynamic data filtering in a prototype for stakeholder presentations'
+  - 'prepare an interactive prototype ready for unmoderated usability testing'
+  - 'prototype keyboard shortcut navigation (Cmd+K) within our desktop interface'
+  - 'link screen states to demonstrate edge cases like error banners and loading spinners'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'code a rapid working software MVP in JavaScript/Python'
+    expect: 'prototype'
+  - prompt: 'build static component libraries in Figma'
+    expect: 'component-library'
+  - prompt: 'conduct moderated usability interviews using a prototype'
+    expect: 'ux-research'

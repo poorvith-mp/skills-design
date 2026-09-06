@@ -1,7 +1,9 @@
 ---
 name: responsive-rules
+group: Design system
 description: >-
-  Define breakpoint strategy, fluid type scales and adaptive layout behaviour across devices.
+  Define breakpoint strategy, fluid type scales and adaptive layout behaviour across devices. Use
+  when designing responsive grid breakpoints, fluid spacing, or adaptive layouts.
 ---
 # Responsive Rules
 
