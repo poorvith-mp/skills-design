@@ -5,6 +5,7 @@ description: >-
   Plan and run usability studies and behavioural analysis, then turn findings into research-backed
   personas. Use when running usability tests, journey mapping, or observing user behavior.
 ---
+
 # UX Research
 
 ## 🎯 Your Core Mission

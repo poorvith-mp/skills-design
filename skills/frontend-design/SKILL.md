@@ -5,6 +5,7 @@ description: >-
   Build distinctive, production-grade interfaces in real code, avoiding generic AI-default
   layouts. Use when implementing pixel-perfect CSS, Tailwind, Flexbox, or responsive code.
 ---
+
 # Frontend Design
 
 This skill guides creation of distinctive, production-grade frontend interfaces that avoid generic "AI slop" aesthetics. Implement real working code with exceptional attention to aesthetic details and creative choices.
