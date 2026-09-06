@@ -1,0 +1,7 @@
+should_fire:
+  - "help with ux research"
+  - "plan and run usability studies and behavioural analysis, then turn findings into research-backed personas."
+  - "run ux-research workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

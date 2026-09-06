@@ -1,0 +1,7 @@
+should_fire:
+  - "help with responsive rules"
+  - "define breakpoint strategy, fluid type scales and adaptive layout behaviour across devices."
+  - "run responsive-rules workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

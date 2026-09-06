@@ -1,0 +1,7 @@
+should_fire:
+  - "help with delight"
+  - "add personality through microinteractions, copy moments and easter eggs, without harming usability."
+  - "run delight workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

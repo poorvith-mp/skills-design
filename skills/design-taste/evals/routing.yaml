@@ -1,0 +1,7 @@
+should_fire:
+  - "help with design taste"
+  - "find and fix the signatures that make a design read as ai-generated"
+  - "run design-taste workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

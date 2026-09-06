@@ -1,0 +1,7 @@
+should_fire:
+  - "help with type system"
+  - "build the type scale, font pairing, hierarchy rules, line height and vertical rhythm."
+  - "run type-system workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

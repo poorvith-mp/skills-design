@@ -1,19 +1,23 @@
-# WCAG Design Review Checklist
+# WCAG 2.2 Quick Reference Checklist
 
-## Visual Design
-- [ ] Text contrast meets 4.5:1 AA minimum
-- [ ] Interactive elements have 3:1 contrast against background
-- [ ] Focus states are clearly visible (not just color change)
-- [ ] Color is not the only means of conveying information
+## Perceivable
+- 1.1.1 Non-text Content: All images have `alt` text
+- 1.3.1 Info and Relationships: Semantic HTML structure
+- 1.4.1 Use of Color: Color not sole conveyor of meaning
+- 1.4.3 Contrast (Minimum): 4.5:1 normal text, 3:1 large text (AA)
+- 1.4.11 Non-text Contrast: 3:1 for UI components and graphics
 
-## Layout & Navigation
-- [ ] Touch targets minimum 44×44 CSS pixels
-- [ ] Consistent navigation across pages
-- [ ] Skip-to-content link available
-- [ ] Responsive down to 320px width without horizontal scrolling
+## Operable
+- 2.1.1 Keyboard: All functionality via keyboard
+- 2.1.2 No Keyboard Trap: Focus can move freely
+- 2.4.3 Focus Order: Logical tab sequence
+- 2.4.7 Focus Visible: Clear focus indicator
 
-## Content
-- [ ] Headings follow proper hierarchy (H1 → H2 → H3)
-- [ ] Images have meaningful alt text
-- [ ] Form labels are associated with inputs
-- [ ] Error messages describe the issue and suggest a fix
+## Understandable
+- 3.1.1 Language of Page: `lang` attribute on `<html>`
+- 3.3.1 Error Identification: Errors described in text
+- 3.3.2 Labels or Instructions: Form inputs have labels
+
+## Robust
+- 4.1.2 Name, Role, Value: Custom widgets have ARIA roles
+- 4.1.3 Status Messages: Dynamic updates use `aria-live`

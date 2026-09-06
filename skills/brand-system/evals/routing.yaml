@@ -1,0 +1,7 @@
+should_fire:
+  - "help with brand system"
+  - "build brand identity end to end"
+  - "run brand-system workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

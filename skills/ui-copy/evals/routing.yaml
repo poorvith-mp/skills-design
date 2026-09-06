@@ -1,0 +1,7 @@
+should_fire:
+  - "help with ui copy"
+  - "write interface microcopy — buttons, errors, empty states, tooltips — and replace placeholder text with real copy."
+  - "run ui-copy workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

@@ -1,0 +1,7 @@
+should_fire:
+  - "help with print packaging"
+  - "produce print-ready packaging with bleed, die lines, cmyk/pantone profiles and material specs."
+  - "run print-packaging workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

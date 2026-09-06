@@ -1,11 +1,8 @@
 ---
 name: frontend-design
 description: >-
-  Builds distinctive, production-grade frontend interfaces with real working code, avoiding
-  generic AI-template aesthetics. Use when implementing a UI that has to look considered rather
-  than default.
+  Build distinctive, production-grade interfaces in real code, avoiding generic AI-default layouts.
 ---
-
 # Frontend Design
 
 This skill guides creation of distinctive, production-grade frontend interfaces that avoid generic "AI slop" aesthetics. Implement real working code with exceptional attention to aesthetic details and creative choices.

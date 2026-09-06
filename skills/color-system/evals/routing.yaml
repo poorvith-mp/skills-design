@@ -1,0 +1,7 @@
+should_fire:
+  - "help with color system"
+  - "turn a chosen direction into a real palette"
+  - "run color-system workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

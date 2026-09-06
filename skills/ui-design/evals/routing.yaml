@@ -1,0 +1,7 @@
+should_fire:
+  - "help with ui design"
+  - "design screen layouts and visual systems for a product surface."
+  - "run ui-design workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

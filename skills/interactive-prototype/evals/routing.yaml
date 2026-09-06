@@ -1,0 +1,7 @@
+should_fire:
+  - "help with interactive prototype"
+  - "turn a design into a clickable prototype with real flows, states and transitions, ready to put in front of users."
+  - "run interactive-prototype workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

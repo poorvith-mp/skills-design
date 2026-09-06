@@ -1,0 +1,7 @@
+should_fire:
+  - "help with accessibility review"
+  - "check a design for contrast, target size, focus order and motion safety before anything gets built."
+  - "run accessibility-review workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

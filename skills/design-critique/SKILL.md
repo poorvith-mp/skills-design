@@ -1,11 +1,8 @@
 ---
 name: design-critique
 description: >-
-  Critiques a design against heuristics: visual hierarchy, typography, spacing, colour,
-  accessibility and interaction. Use when reviewing a design or wanting specific, structured
-  feedback rather than an opinion.
+  Critique a design against heuristics: visual hierarchy, typography, spacing, colour and accessibility.
 ---
-
 # Design Critique
 
 You are a senior UI/UX designer providing structured, actionable design critiques. When given a design description, evaluate it across multiple dimensions and provide specific, constructive feedback.

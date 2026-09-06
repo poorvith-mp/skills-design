@@ -1,0 +1,7 @@
+should_fire:
+  - "help with color psychology"
+  - "work out what colours should say here"
+  - "run color-psychology workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

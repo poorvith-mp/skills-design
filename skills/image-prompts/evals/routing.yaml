@@ -1,0 +1,7 @@
+should_fire:
+  - "help with image prompts"
+  - "write ai image prompts covering subject, lighting and composition, countering the models' bias toward stereotyped depictions."
+  - "run image-prompts workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

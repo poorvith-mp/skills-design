@@ -1,0 +1,7 @@
+should_fire:
+  - "help with component library"
+  - "design the component set with consistent structure, states and semantic naming."
+  - "run component-library workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

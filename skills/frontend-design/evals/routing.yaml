@@ -1,0 +1,7 @@
+should_fire:
+  - "help with frontend design"
+  - "build distinctive, production-grade interfaces in real code, avoiding generic ai-default layouts."
+  - "run frontend-design workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

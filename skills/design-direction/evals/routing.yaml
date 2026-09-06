@@ -1,0 +1,7 @@
+should_fire:
+  - "help with design direction"
+  - "choose the visual genre that fits the product, audience and category — editorial, brutalist, swiss, retro, soft-tech — and commit with references."
+  - "run design-direction workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

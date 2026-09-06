@@ -1,0 +1,7 @@
+should_fire:
+  - "help with information architecture"
+  - "structure navigation, hierarchy and content models, and hand engineering an implementable spec."
+  - "run information-architecture workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry
