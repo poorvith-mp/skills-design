@@ -1,5 +1,6 @@
 ---
 name: brand-system
+last_reviewed: 2026-09-06
 group: Brand
 description: >-
   Build brand identity end to end: voice, logomarks, adaptive logo systems and usage rules. Use

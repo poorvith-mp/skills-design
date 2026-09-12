@@ -1,5 +1,6 @@
 ---
 name: icon-design
+last_reviewed: 2026-09-06
 group: Brand
 description: >-
   Write icon briefs specifying metaphor, style, grid, stroke weight and usage context. Use when

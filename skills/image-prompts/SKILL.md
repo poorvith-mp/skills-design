@@ -1,5 +1,6 @@
 ---
 name: image-prompts
+last_reviewed: 2026-09-06
 group: Implementation
 description: >-
   Write AI image prompts covering subject, lighting and composition, countering the models' bias

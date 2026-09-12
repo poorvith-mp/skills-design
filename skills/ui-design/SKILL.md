@@ -1,5 +1,6 @@
 ---
 name: ui-design
+last_reviewed: 2026-09-06
 group: Interface
 description: >-
   Design screen layouts and visual systems for a product surface. Use when designing user

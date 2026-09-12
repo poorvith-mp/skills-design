@@ -1,5 +1,6 @@
 ---
 name: component-library
+last_reviewed: 2026-09-06
 group: Design system
 description: >-
   Design the component set with consistent structure, states and semantic naming. Use when

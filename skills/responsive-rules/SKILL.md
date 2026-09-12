@@ -1,5 +1,6 @@
 ---
 name: responsive-rules
+last_reviewed: 2026-09-06
 group: Design system
 description: >-
   Define breakpoint strategy, fluid type scales and adaptive layout behaviour across devices. Use

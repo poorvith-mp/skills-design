@@ -1,5 +1,6 @@
 ---
 name: ux-researcher
+last_reviewed: 2026-09-06
 description: Moved to ux-research in skills-design. Removed in v4.1.
 deprecated: true
 ---

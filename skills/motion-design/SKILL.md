@@ -1,5 +1,6 @@
 ---
 name: motion-design
+last_reviewed: 2026-09-06
 group: Interface
 description: >-
   Specify UI animation and motion graphics: what moves, easing, timing, audio sync points and

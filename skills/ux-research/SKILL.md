@@ -1,5 +1,6 @@
 ---
 name: ux-research
+last_reviewed: 2026-09-06
 group: Research and evaluation
 description: >-
   Plan and run usability studies and behavioural analysis, then turn findings into research-backed

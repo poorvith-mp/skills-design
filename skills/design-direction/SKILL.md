@@ -1,5 +1,6 @@
 ---
 name: design-direction
+last_reviewed: 2026-09-06
 group: Direction
 description: >-
   Choose the visual genre fitting product and audience: editorial, brutalist, swiss, retro,

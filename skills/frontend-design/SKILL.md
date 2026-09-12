@@ -1,5 +1,6 @@
 ---
 name: frontend-design
+last_reviewed: 2026-09-06
 group: Implementation
 description: >-
   Build distinctive, production-grade interfaces in real code, avoiding generic AI-default

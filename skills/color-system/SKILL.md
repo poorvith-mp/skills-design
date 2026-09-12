@@ -1,5 +1,6 @@
 ---
 name: color-system
+last_reviewed: 2026-09-06
 group: Design system
 description: >-
   Turn a chosen direction into a real palette: tints, WCAG contrast, dark mode mapping, elevation

@@ -1,5 +1,6 @@
 ---
 name: design-taste
+last_reviewed: 2026-09-06
 group: Research and evaluation
 description: Find and fix AI design signatures: gradient blobs, three identical cards, purple-on-white. Not for prose (see writing-taste). Use when eliminating generic AI design tropes and templates.
 ---

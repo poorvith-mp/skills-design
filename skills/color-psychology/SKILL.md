@@ -1,5 +1,6 @@
 ---
 name: color-psychology
+last_reviewed: 2026-09-06
 group: Direction
 description: >-
   Define color meaning: category conventions, emotional resonance, cultural symbolism, and owner

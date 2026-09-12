@@ -1,5 +1,6 @@
 ---
 name: design-critique
+last_reviewed: 2026-09-06
 group: Research and evaluation
 description: >-
   Critique a design against heuristics: visual hierarchy, typography, spacing, colour and

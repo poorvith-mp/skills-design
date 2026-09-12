@@ -1,5 +1,6 @@
 ---
 name: interactive-prototype
+last_reviewed: 2026-09-06
 group: Interface
 description: >-
   Turn a design into a clickable prototype with real flows, states and transitions, ready to put

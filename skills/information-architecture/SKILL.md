@@ -1,5 +1,6 @@
 ---
 name: information-architecture
+last_reviewed: 2026-09-06
 group: Interface
 description: >-
   Structure navigation, hierarchy and content models, and hand engineering an implementable spec.

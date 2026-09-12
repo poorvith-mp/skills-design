@@ -1,5 +1,6 @@
 ---
 name: print-packaging
+last_reviewed: 2026-09-06
 group: Brand
 description: >-
   Produce print-ready packaging with bleed, die lines, CMYK/Pantone profiles and material specs.

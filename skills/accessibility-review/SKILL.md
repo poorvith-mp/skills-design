@@ -1,5 +1,6 @@
 ---
 name: accessibility-review
+last_reviewed: 2026-09-06
 group: Research and evaluation
 description: >-
   Check a design for contrast, target size, focus order and motion safety before anything gets

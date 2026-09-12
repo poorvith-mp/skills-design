@@ -1,5 +1,6 @@
 ---
 name: type-system
+last_reviewed: 2026-09-06
 group: Design system
 description: >-
   Build the type scale, font pairing, hierarchy rules, line height and vertical rhythm. Use when

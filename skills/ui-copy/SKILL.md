@@ -1,5 +1,6 @@
 ---
 name: ui-copy
+last_reviewed: 2026-09-06
 group: Interface
 description: >-
   Write interface microcopy — buttons, errors, empty states, tooltips — and replace placeholder

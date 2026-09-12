@@ -1,5 +1,6 @@
 ---
 name: delight
+last_reviewed: 2026-09-06
 group: Interface
 description: >-
   Add personality through microinteractions, copy moments and easter eggs, without harming
